@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "server.ts",
   "scripts": {
-    "dev": "nodemon --watch src --ext ts --exec ts-node src/server.ts --signal SIGINT",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/server.ts",
     "start": "node dist/server.ts",
     "build": "tsc"
   },
